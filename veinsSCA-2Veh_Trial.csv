@@ -1,0 +1,50 @@
+run,type,module,name,attrname,attrvalue,value
+veins-0-20210525-10:05:24-61334,runattr,,,configname,veins,
+veins-0-20210525-10:05:24-61334,runattr,,,datetime,20210525-10:05:24,
+veins-0-20210525-10:05:24-61334,runattr,,,experiment,veins,
+veins-0-20210525-10:05:24-61334,runattr,,,inifile,omnetpp.ini,
+veins-0-20210525-10:05:24-61334,runattr,,,iterationvars,,
+veins-0-20210525-10:05:24-61334,runattr,,,iterationvarsf,,
+veins-0-20210525-10:05:24-61334,runattr,,,measurement,,
+veins-0-20210525-10:05:24-61334,runattr,,,network,artery.veins.World,
+veins-0-20210525-10:05:24-61334,runattr,,,processid,61334,
+veins-0-20210525-10:05:24-61334,runattr,,,repetition,0,
+veins-0-20210525-10:05:24-61334,runattr,,,replication,#0,
+veins-0-20210525-10:05:24-61334,runattr,,,resultdir,results,
+veins-0-20210525-10:05:24-61334,runattr,,,runnumber,0,
+veins-0-20210525-10:05:24-61334,runattr,,,seedset,0,
+veins-0-20210525-10:05:24-61334,param,,,*.playgroundSizeX,4000m,
+veins-0-20210525-10:05:24-61334,param,,,*.playgroundSizeY,4000m,
+veins-0-20210525-10:05:24-61334,param,,,*.playgroundSizeZ,50m,
+veins-0-20210525-10:05:24-61334,param,,,*.connectionManager.maxInterfDist,2500m,
+veins-0-20210525-10:05:24-61334,param,,,*.connectionManager.sendDirect,true,
+veins-0-20210525-10:05:24-61334,param,,,*.connectionManager.coreDebug,false,
+veins-0-20210525-10:05:24-61334,param,,,*.withObstacles,true,
+veins-0-20210525-10:05:24-61334,param,,,*.obstacles.obstacles,"xmldoc(""config.xml"", ""//AnalogueModel[@type='SimpleObstacleShadowing']/obstacles"")",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].nic.mac1609_4.txPower,126mW,
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].nic.phy80211p.decider,"xmldoc(""config.xml"")",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].nic.phy80211p.analogueModels,"xmldoc(""config.xml"")",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].applType,"""artery.veins.ApplicationLayer""",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].appl.middleware.updateInterval,0.01s,
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].appl.middleware.datetime,"""2013-06-01 12:35:00""",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].appl.middleware.services,"xmldoc(""services.xml"")",
+veins-0-20210525-10:05:24-61334,param,,,*.**.nic.phy80211p.collectCollisionStatistics,true,
+veins-0-20210525-10:05:24-61334,param,,,*.**.nic.phy80211p.antenna,"xmldoc(""antenna.xml"", ""/root/Antenna[@id='monopole']"")",
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].nic.phy80211p.antennaOffsetY,0 m,
+veins-0-20210525-10:05:24-61334,param,,,*.node[*].nic.phy80211p.antennaOffsetZ,1.895 m,
+veins-0-20210525-10:05:24-61334,param,,,*.traci.core.version,-1,
+veins-0-20210525-10:05:24-61334,param,,,*.traci.launcher.typename,"""PosixLauncher""",
+veins-0-20210525-10:05:24-61334,param,,,*.traci.launcher.sumocfg,"""$SUMO_CFGS/Highway/TrialSumoConfig.sumocfg""",
+veins-0-20210525-10:05:24-61334,param,,,*.traci.launcher.sumo,"""$SUMO_HOME/sumo/bin/sumo-gui""",
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.phy80211p,ncollisions,,,0
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.mac1609_4,ReceivedBroadcasts,,,23
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.mac1609_4,SentPackets,,,178
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.mac1609_4,SNIRLostPackets,,,5
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.mac1609_4,RXTXLostPackets,,,0
+veins-0-20210525-10:05:24-61334,scalar,World.node[0].nic.mac1609_4,TotalLostPackets,,,5
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.phy80211p,ncollisions,,,0
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.mac1609_4,ReceivedBroadcasts,,,23
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.mac1609_4,SentPackets,,,179
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.mac1609_4,SNIRLostPackets,,,5
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.mac1609_4,RXTXLostPackets,,,0
+veins-0-20210525-10:05:24-61334,scalar,World.node[1].nic.mac1609_4,TotalLostPackets,,,5
